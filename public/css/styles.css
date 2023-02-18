@@ -1,0 +1,40 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+footer{
+    color: aliceblue;
+    margin-top: auto;
+    text-align: center;
+    background-color: #1abc9c;
+    font-size: 12px;
+    height: 55px;
+    padding-top: 20px;
+    font-weight: 700;
+}
+/* .footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+.ftext {
+    color: #fff;
+} */
